@@ -9,6 +9,15 @@ class Book{
     String authorName;
     String issuedTo = "None";
     String issuedOn = "None";
+    public book(){
+      //pass
+    }
+    public Book(String BookName,String Author,String issued,String Issuedon){
+        bookName=BookName;
+        authorName=Author;
+        issuedTo=issued;
+        issuedOn=Issuedon;
+        
 }
 
 class BookMethods extends Book{
